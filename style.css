@@ -1,0 +1,89 @@
+body{
+    background-image: url(img2.jpg);
+    background-size: cover;
+}
+.main{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    margin-top: 50px;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.result{
+    height: 120px;
+    width: 90%;
+    margin: 10px 15px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.result:focus{
+    outline: 0;
+}
+.clearBtn{
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    border-radius: 10%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.halfBtn{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.clearBtn:hover , .btn:hover , .halfBtn:hover{
+    font-size: 17px;
+}
+.child:hover{
+    font-size: 25px;
+}
+
+.clearBtn , .btn , .halfBtn {
+    cursor: pointer;
+}
+.clearBtn:active , .btn:active , .halfBtn:active{
+    font-size: 13px;
+}
+.clearBtn:focus , .btn:focus , .halfBtn:focus{
+    outline: 0;
+}
+.child{
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+.child1{
+    background-color: #e65733;
+}
+.child2{
+    background-color: #20b2aa;
+}
